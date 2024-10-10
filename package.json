@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "express": "^4.21.0"
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.0",
+    "react-router-dom": "^6.26.2"
   },
   "name": "c21-24-m-react-agregarback",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
