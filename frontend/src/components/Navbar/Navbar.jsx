@@ -2,16 +2,16 @@ import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/logo.png"; 
+import logo from "../../assets/logo/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="Logo" style={{ width: "40px", height: "40px" }} />
           
-        </Link>
+                  </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,16 +26,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/">Inicio</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/registro">Registro</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/login">Iniciar Sesión</Link>
+              <Link className="nav-link" to="/publicaciones">Publicaciones</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/publicaciones">Publicaciones</Link>
+              <Link className="nav-link" to="/login">Iniciar Sesión</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/logout">Cerrar Sesión</Link>
