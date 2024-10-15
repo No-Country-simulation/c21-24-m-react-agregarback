@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #e17d42;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #F5F5DC; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #9aad00;
+  }
+  
+  .navbar-toggler {
+    border-color: #F5F5DC;
+  }
+  
+  .btn-outline-success {
+    color: #F5F5DC;
+    border-color: #9aad00;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #9aad00;
+    color: #F5F5DC;
+  }
+  
+  
+  .form-control {
+    background-color: #F5F5DC;
+    border: 1px solid #9aad00;
+    color: #9aad00;
+  }
+  
+ 
+  .btn[type="submit"] {
+    background-color: #F5F5DC; 
+    color: #9aad00;
+    border-color: #9aad00; 
+  }
+  
+  .btn[type="submit"]:hover {
+    background-color: #9aad00; 
+    color: #F5F5DC; 
+  }
+  
