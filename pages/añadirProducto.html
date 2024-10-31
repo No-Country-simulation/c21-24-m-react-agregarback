@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <img src="../public/arteanal.png" class="logo">
+        </section>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <ul class="navbar-nav">
+                    <li class="navbar-links"><a href=" ../index.html">Inicio</a></li>
+                    <li class="navbar-links"><a href="marketplace.html">Marketplace</a></li>
+                    <li class="navbar-links"><a href="./cart.html">Carrito</a></li>
+                    <li class="navbar-links"><a href="./añadirProducto.html">Agregar Producto</a></li>
+                    <li class="navbar-links"><a href="./iniciarSesion.html">Iniciar Sesion</a></li>
+                    <li class="navbar-links"><a href="./admin.html">Admin</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <h2>Agregar Nuevo Producto</h2>
+        <form id="addProductForm">
+            <input type="text" id="productName" placeholder="Nombre del producto" required>
+            <input type="text" id="productDescription" placeholder="Descripción del producto" required>
+            <input type="number" id="productPrice" placeholder="Precio" required>
+            <input type="text" id="productImage" placeholder="URL de la imagen" required>
+            <select id="productCategory" required>
+                <option value="" disabled selected>Seleccionar categoría</option>
+                <option value="joyeria">Joyería</option>
+                <option value="ceramica">Cerámica</option>
+                <option value="textil">Textil</option>
+                <option value="madera">Madera</option>
+            </select>
+            <button id="agregarProducto" type="submit">Agregar Producto</button>
+        </form>
+        <p id="productMessage"></p>
+    </main>
+    <script src="../js/app.js"></script>
+    <script src="../js/añadirProducto.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>
